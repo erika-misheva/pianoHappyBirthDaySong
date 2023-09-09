@@ -1,0 +1,144 @@
+h1,
+p {
+    text-align: center;
+}
+
+body {
+    background-color: #ffc63f;
+    font-family: 'Roboto', sans-serif;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+#c-key {
+    margin-left: 0;
+}
+
+#keys {
+    display: flex;
+    justify-content: center;
+    background-color: #fd4d3f;
+    width: fit-content;
+}
+
+.key {
+    width: 33px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #141c3a;
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+    padding-bottom: 5px;
+    box-shadow: 2.5px 4.5px #141c3a;
+}
+
+.sharp-key {
+    width: 27px;
+    height: 100px;
+    background-color: rgba(20, 28, 58, 255);
+    display: flex;
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#sharp-keys-firstGroup,
+#sharp-keys-secondGroup {
+    height: 86px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    bottom: 213px;
+    float: left;
+}
+
+#sharp-keys-firstGroup {
+    width: 114px;
+    left: 600px;
+    justify-content: space-evenly;
+}
+
+#sharp-keys-secondGroup {
+    width: 152px;
+    left: 610px;
+    justify-content: space-evenly;
+}
+
+#center2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#fullSong {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 460px;
+    background-color: #fd4d3f;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+#song-container1,
+#song-container2,
+#notes-container1,
+#notes-container2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.lyrics,
+button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+button {
+    background-color: #ffc63f;
+    border: none;
+}
+
+#second-next-line,
+#third-next-line,
+#fourth-next-line {
+    display: none;
+}
+
+#notes-container2 {
+    align-self: flex-start;
+    width: 50%;
+}
+
+#song-container2 {
+    align-self: flex-start;
+    width: 75%;
+}
+
+.letter-note {
+    color: white;
+}
+#column-optional,#letter-note-seven{
+    display: none;
+}
